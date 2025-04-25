@@ -13,4 +13,12 @@ return {
   opts = {
     -- fill any relevant options here
   },
+
+  keys = function()
+    return {
+	{"<leader>e", "<cmd>Neotree<cr>", desc="File Tree"}
+    }
+  end,
+  
+
 }
