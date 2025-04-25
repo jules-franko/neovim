@@ -21,6 +21,7 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+--MY CONFIGURATIONS
 vim.opt.relativenumber = true
 vim.opt.wrap = false
 vim.opt.shiftwidth = 2
@@ -28,8 +29,8 @@ vim.opt.expandtab = true
 vim.opt.smartindent = true
 vim.opt.tabstop = 2
 vim.opt.termguicolors = true
-
 vim.opt.clipboard:append("unnamedplus")
+--END - MY CONFIGURATIONS
 
 -- Setup lazy.nvim
 require("lazy").setup({
